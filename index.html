@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type='text/css' href='style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho de socket</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>Trabalho de Socket
+        <div id=imglogo>
+           <a href='https://www.ufgd.edu.br'><img src='https://seeklogo.com/images/U/ufgd-universidade-federal-da-grande-dourados-logo-BA008DE1C7-seeklogo.com.png' width=40px height=40px> </a>
+        </div>
+    </header>
+
+    <div id="lista-usuarios">Usuários online
+        <p id="usuarios-online"> </p>
+
+    </div>
+
+
+    <div class=chat-box>
+        <div id="message-container"></div>
+      
+            <form id="send-container">
+                <input type="text" id="message-input" placeholder="Digite a mensagem...">
+                <input type="submit" id="send-button" value="Enviar">
+            </form>
+        
+    </div>
+
+
+</body>
+<footer>
+    Desenvolvido por Adriano Yuji Sato de Vasconcelos como trabalho de Sockets que foi solicitado pelo professor Felipe Carbone
+</footer>
+
+
+
+
+</html>
